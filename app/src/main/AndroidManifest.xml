@@ -13,6 +13,9 @@
         android:theme="@style/Theme.SimpleChat"
         tools:targetApi="31">
         <activity
+            android:name=".CahtActivity"
+            android:exported="false" />
+        <activity
             android:name=".MainActivity"
             android:exported="true">
             <intent-filter>
